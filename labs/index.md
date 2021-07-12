@@ -10,7 +10,7 @@ This page lists the lab activities along with completed solutions.
 </div>
 
 <div class="callout">
-<b>Important</b>: Be sure to download <a href="CS370_Labs.zip">CS370_Labs.zip</a> first as it will create the project structure for the labs!
+<b>Important</b>: Be sure to download <a href="src/CS370_Labs.zip">CS370_Labs.zip</a> first as it will create the project structure for the labs!
 </div>
 
 <script>autogenLabs();</script>

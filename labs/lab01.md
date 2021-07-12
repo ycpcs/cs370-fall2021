@@ -23,7 +23,7 @@ Finally, select **Reload changes** which should build the project and add it to 
 
 #### Solution
 
-Download [CS370\_Lab01\_Solution.zip](src/CS370_Lab01_Solution.zip), saving it into the **CS370\_Labs** directory.
+Download [CS370\_Lab01\_Solution.zip](sol/CS370_Lab01_Solution.zip), saving it into the **CS370\_Labs** directory.
 
 Double-click on **CS370\_Lab01\_Solution.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab01\_Solution**
 
