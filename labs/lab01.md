@@ -262,7 +262,7 @@ where *mode* is the type of primitives we want to use with the vertices (e.g. **
 
 ## Compiling and running the program
 
-You should be able to build and run the program by clicking the small green arrow towards the right of the top toolbar.
+You should be able to build and run the program by selecting **basicGeometry** from the dropdown menu and clicking the small green arrow towards the right of the top toolbar.
 
 At this point you should see a red square.
 
