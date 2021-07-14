@@ -17,15 +17,15 @@ Open CLion, select **Open** from the main screen (you may need to close any open
 
 In the popup dialog, in the **Toolchain** drop down select Visual Studio
 
-> <img src="images/labSetup/CLion1.png" alt="CLion Project Dialog" height="500"/>
+> <img src="images/labSetup/clion1.png" alt="Windows CLion Project Dialog" height="500"/>
 
 Then select **Manage toolchains**
 
-> <img src="images/labSetup/CLion2.png" alt="CLion Toolchain Dialog" height="500"/>
+> <img src="images/labSetup/clion2.png" alt="Windows CLion Toolchain Dialog" height="500"/>
 
 In the toolchain dialog, be sure Visual Studio is selected, then in the **Architecture:** dropdown, choose **amd64**
 
-> <img src="images/labSetup/CLion3.png" alt="CLion Architecture Dialog" height="500"/>
+> <img src="images/labSetup/clion3.png" alt="Windows CLion Architecture Dialog" height="500"/>
 
 Then click **OK** to exit the dialog boxes. This will set Visual Studio x64 as the compiler for all the labs we'll be importing into this project folder for this course.
 
@@ -33,3 +33,4 @@ Then click **OK** to exit the dialog boxes. This will set Visual Studio x64 as t
 
 In the popup dialog, in the **Toolchain** drop down simply leave the default for Mac OSX which will use the XCode Clang compiler for all the labs we'll be importing into this project folder.
 
+> <img src="images/labSetup/clion3.png" alt="OSX CLion Dialog" height="500"/>
