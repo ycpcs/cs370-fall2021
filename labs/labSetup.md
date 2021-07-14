@@ -33,4 +33,4 @@ Then click **OK** to exit the dialog boxes. This will set Visual Studio x64 as t
 
 In the popup dialog, in the **Toolchain** drop down simply leave the default for Mac OSX which will use the XCode Clang compiler for all the labs we'll be importing into this project folder.
 
-> <img src="images/labSetup/clion3.png" alt="OSX CLion Dialog" height="500"/>
+> <img src="images/labSetup/clionMac.png" alt="OSX CLion Dialog" height="500"/>
