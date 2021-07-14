@@ -20,7 +20,7 @@ Download and install [Visual Studio 2019](https://visualstudio.microsoft.com) - 
 
 2. Download and install [CLion](https://www.jetbrains.com/clion/) and accept the defaults during the installation process.
 
-3. Follow the [CS370\_Setup](labs/CS370_Setup.html) instructions for creating the root project folder.
+3. Follow the [CS370\_Setup](labs/labSetup.html) instructions for creating the root project folder.
 
 ## Mac OSX (Big Sur)
 
@@ -34,7 +34,7 @@ Download and install [Visual Studio 2019](https://visualstudio.microsoft.com) - 
 	$ sudo xcode-select --install
 	```
 
-3. Follow the [CS370\_Setup](labs/CS370_Setup.html) instructions for creating the root project folder.
+3. Follow the [CS370\_Setup](labs/labSetup.html) instructions for creating the root project folder.
     
 ### CLion
 
@@ -62,6 +62,6 @@ $ sudo apt-get install libglew-dev
 
 3. Accept the defaults during the installation process.
 
-3. Follow the [CS370\_Setup](labs/CS370_Setup.html) instructions for OSX for creating the root project folder.
+3. Follow the [CS370\_Setup](labs/labSetup.html) instructions for OSX for creating the root project folder.
 
 
