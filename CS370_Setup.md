@@ -31,15 +31,17 @@ Then click **OK** to exit the dialog boxes. This will set Visual Studio x64 as t
 
 Next select **File -> Settings** from the menubar.
 
-    <img src="img/CLionSettings.png" alt="CLion Select Settings Window" height="400"/>
+> <img src="img/CLionSettings.png" alt="CLion Select Settings Window" height="400"/>
 
-In the **Settings** dialog, select the **Tools->Terminal** option, then replace what is in the **Shell path:** setting with **"C:\cygwin64\bin\sh" -lic 'cd "${OLDPWD-.}"; bash'**,
+In the **Settings** dialog, select the **Tools->Terminal** option, then replace what is in the **Shell path:** setting with
 
-    <img src="img/CLionTerminal.png" alt="CLion Tools Settings Window" height="500"/>
+    "C:\cygwin64\bin\sh" -lic 'cd "${OLDPWD-.}"; bash'
+
+> <img src="img/CLionTerminal.png" alt="CLion Tools Settings Window" height="500"/>
 
 If everything is configured correctly, when you select the **Terminal** tab in the lower left corner of CLion it should open up a terminal pane that displays a Cygwin prompt in the **CS370** project directory.
 
-    <img src="img/CLionCygwin.png" alt="CLion Cygwin Window" height="400"/>
+> <img src="img/CLionCygwin.png" alt="CLion Cygwin Window" height="400"/>
 
 ## Mac OSX
 
