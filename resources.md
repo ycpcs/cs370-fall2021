@@ -14,13 +14,19 @@ This page contains links to useful resources.
 
 Download and install [Visual Studio 2019](https://visualstudio.microsoft.com) - the Community Edition is sufficient. During the installation when you are given options of features to add, select **Desktop development with C++**. You should be able to sign in with your YCP email (or create a new account using it).
 
+### Cygwin
+
+We will be using [Cygwin](http://cygwin.com/) as our terminal program within CLion for all assignment and exam submissions to Marmoset. 
+
+Install [Cygwin](http://cygwin.com/) and the various packages as described in the [CS101 Cygwin installation guide](https://ycpcs.github.io/cs101-spring2021/installCygwin.html).
+
 ### CLion
 
 1.  Create a [JetBrains](https://account.jetbrains.com/login) account with your YCP email to obtain a free license. 
 
 2. Download and install [CLion](https://www.jetbrains.com/clion/) and accept the defaults during the installation process.
 
-3. Follow the [CS370\_Setup](labs/labSetup.html) instructions for creating the root project folder.
+3. Follow the [CS370\_Setup](CS370_Setup.html) instructions for creating the root project folder.
 
 ## Mac OSX (Big Sur)
 
@@ -34,7 +40,7 @@ Download and install [Visual Studio 2019](https://visualstudio.microsoft.com) - 
 	$ sudo xcode-select --install
 	```
 
-3. Follow the [CS370\_Setup](labs/labSetup.html) instructions for creating the root project folder.
+3. Follow the [CS370\_Setup](CS370_Setup.html) instructions for creating the root project folder.
     
 ### CLion
 
@@ -62,6 +68,6 @@ $ sudo apt-get install libglew-dev
 
 3. Accept the defaults during the installation process.
 
-3. Follow the [CS370\_Setup](labs/labSetup.html) instructions for OSX for creating the root project folder.
+3. Follow the [CS370\_Setup](CS370_Setup.html) instructions for OSX for creating the root project folder.
 
 

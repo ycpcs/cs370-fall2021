@@ -13,11 +13,11 @@ We will be using [CMake](https://cmake.org) to configure our build environment f
 
 ## Getting Started
 
-Download [CS370\_Lab00.zip](src/CS370_Lab00.zip), saving it into the **CS370\_Labs** directory.
+Download [CS370\_Lab00.zip](src/CS370_Lab00.zip), saving it into the **CS370** directory.
 
 Double-click on **CS370\_Lab00.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab00**
 
-Open CLion, select **CS370\_Labs** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab00** subdirectory). Uncomment the line
+Open CLion, select **CS370** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab00** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab00" "CS370_Lab00/bin")

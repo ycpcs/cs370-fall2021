@@ -1,0 +1,19 @@
+---
+layout: default
+title: "Assignments"
+---
+
+This page links to assignments.
+
+All written portions should be submitted to Canvas. All programming portions should be uploaded to [Marmoset](https://cs.ycp.edu/marmoset/)
+
+> Assignment | File | Written Due | Program Due | Solutions |
+> ---------- | ---- | ----------- | ----------- | --------- |
+> [Assignment 1: Don Quixote](assign01.html)       | [CS370_Assign01.zip](src/CS370_Assign01.zip) | **Sept 9** | **Sept 13** | |
+
+<!--
+> [Assignment 2: Rollin Train](assign02.html)      | [CS370_Assign02.zip](src/CS370_Assign02.zip) | **Sept 24**   | **Milestone 1: Sept 21** <br /> **Milestone 2: Sept 28** | [assign02sol.pdf](sol/assign02sol.pdf) |
+> [Assignment 3: Limelight](assign03.html)         | [CS370_Assign03.zip](src/CS370_Assign03.zip) | **Oct 15**   | **Milestone 1: Oct 8** <br /> **Milestone 2: Oct 19** | [assign03sol.pdf](sol/assign03sol.pdf) |
+> [Assignment 4: WalkingMan](assign04.html)            | [CS370_Assign04.zip](src/CS370_Assign04.zip) | **Nov 12**   | **Updated: Milestone 1: Nov 4** <br /> **Milestone 2: Nov 16** | [assign04sol.pdf](sol/assign04sol.pdf) |
+> [Final Project: Think Inside the Box](project.html) <br /> [Evaluation Form](CS370_Final_Project_eval.docx) | [CS370_Project.zip](src/CS370_Project.zip) | |  <br /> **Milestone 1: Oct 13** <br /> **Milestone 2: Nov 12** | |
+-->

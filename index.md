@@ -19,6 +19,8 @@ Welcome to the website for CS 370, Computer Graphics Programming I, at York Coll
 
 ## News
 * **Aug 24** - Welcome back!
+* **Sept 9** - [Assignment 1 Written](assign/assign01.html) Due.
+* **Sept 13** - [Assignment 1 Program](assign/assign01.html) Due.
 
 <!--
 * **Sept 10** - [Assignment 1 Written](assign/assign01.html) Due.
