@@ -7,11 +7,11 @@ For this course, we will be using [CMake](https://cmake.org) to configure our bu
 
 ## Getting Started
 
-Download [CS370.zip](CS370.zip), saving it into the directory where you plan on placing all your CS370 projects.
+Download [CS370-Fall2021.zip](CS370-Fall2021.zip), saving it into the directory where you plan on placing all your CS370 projects.
 
-Double-click on **CS370.zip** and extract the contents of the archive into a subdirectory called **CS370**
+Double-click on **CS370-Fall2021.zip** and extract the contents of the archive into a subdirectory called **CS370-Fall2021**
 
-Open CLion, select **Open** from the main screen (you may need to close any open projects), and navigate to the **CS370** directory. This should open the project and execute the CMake script to configure the toolchain.
+Open CLion, select **Open** from the main screen (you may need to close any open projects), and navigate to the **CS370-Fall2021** directory. This should open the project and execute the CMake script to configure the toolchain.
 
 ## Windows
 
@@ -39,7 +39,7 @@ In the **Settings** dialog, select the **Tools->Terminal** option, then replace 
 
 > <img src="img/CLionTerminal.png" alt="CLion Tools Settings Window" height="500"/>
 
-If everything is configured correctly, when you select the **Terminal** tab in the lower left corner of CLion it should open up a terminal pane that displays a Cygwin prompt in the **CS370** project directory.
+If everything is configured correctly, when you select the **Terminal** tab in the lower left corner of CLion it should open up a terminal pane that displays a Cygwin prompt in the **CS370-Fall2021** project directory.
 
 > <img src="img/CLionCygwin.png" alt="CLion Cygwin Window" height="400"/>
 

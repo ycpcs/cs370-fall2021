@@ -9,11 +9,11 @@ title: "Assignment 1: Don Quixote"
 
 ## Getting Started
 
-Download [CS370\_Assign01.zip](src/CS370_Assign01.zip), saving it into the **CS370** directory.
+Download [CS370\_Assign01.zip](src/CS370_Assign01.zip), saving it into the **CS370-Fall2021** directory.
 
 Double-click on **CS370\_Assign01.zip** and extract the contents of the archive into a subdirectory called **CS370\_Assign01**
 
-Open CLion, select **CS370** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Assign01** subdirectory). Uncomment the line
+Open CLion, select **CS370-Fall2021** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Assign01** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Assign01" "CS370_Assign01/bin")
@@ -103,8 +103,9 @@ To quit the program simply close the window.
 When you are done, submit the assignment to the Marmoset server using the Terminal window in CLion (click **Terminal** at the bottom left of the IDE). Navigate to the directory using
 
 <pre>
-CS370 % <b>cd CS370_Assign01</b>
-CS370_Assign01 % <b>make submit</b>
+$ <b>cd CS370_Assign01</b>
+CS370-Fall2021/CS370_Assign01
+$ <b>make submit</b>
 </pre>
 
 Enter your [Marmoset](https://cs.ycp.edu/marmoset) username and password, if successful you should see
