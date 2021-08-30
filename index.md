@@ -16,6 +16,7 @@ Welcome to the website for CS 370, Computer Graphics Programming I, at York Coll
 * [Assignments](assign/index.html)
 * [Resources](resources.html)
 * [Syllabus](syllabus.html)
+* [Marmoset (submission server)](https://cs.ycp.edu/marmoset)
 
 ## News
 * **Aug 24** - Welcome back!
