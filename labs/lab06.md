@@ -49,7 +49,13 @@ Since OpenGL does not provide support for loading models, we will use functions 
 void loadOBJ(const char *path, vector<vec4> &out_vertices, vector<vec2> &out_uvs, vector<vec3> &out_normals);
 ```
 
-where *path* is the path to the **.obj** model file, *out_vertices* is a reference to a **vector\<vec4\>** (similar to an **ArrayList** in Java) to return the vertices, *out_uvs* is a reference to a **vector\<vec2\>** to return the texture coordinates (which we will use when we discuss texture mapping), and *out_normals* is a reference to a **vector\<vec3\>** to return the face normals (which we will use when we discuss lighting). Once we have loaded the information from the model into the return vectors, we can place these into our buffers for subsequent rendering. Since color information is *not* stored in the **.obj** file, we will create additional color buffers and add a color *per vertex* for each object.
+where *path* is the path to the **.obj** model file, *out_vertices* is a reference to a **vector\<vec4\>** (similar to an **ArrayList** in Java) to return the vertices, *out_uvs* is a reference to a **vector\<vec2\>** to return the texture coordinates (which we will use when we discuss texture mapping), and *out_normals* is a reference to a **vector\<vec3\>** to return the face normals (which we will use when we discuss lighting). Once we have loaded the information from the model into the return vectors, we can place these into our buffers for subsequent rendering. Since color information is *not* stored in the **.obj** file, we will create additional color buffers and add a color *per vertex* for each object using the utility routine
+
+```cpp
+void build_color_buffer(GLuint obj, vec4 color, GLuint buffer);
+```
+
+where *obj* is the **VAO_IDs** for the object we are assigning colors to (in order to know how many vertices there are), *color* is the color we want to use, and *buffer* is the color buffer id we wish to create.
 
 The models can then be rendered using a simple utility function which will bind the buffers passed as parameters and draw the geometry using **GL\_TRIANGLES**
 
@@ -61,13 +67,17 @@ where *obj* is the **VAO_IDs** for the object we wish to draw and *color* is the
 
 ### Tasks
 
-**NOTE:** The global array **models[]** contains the filenames for the **.obj** files.
+**NOTE:** The global vector **objFiles** contains the filenames for the **.obj** files.
 
-- Add code to **load\_object()** to load the model indexed by **obj**. **Hint:** Use the *objFiles[]* array, and pass references to the *vertices*, *uvCoords*, and *normals* vectors (you do *not* need **&** since vectors are objects). Assign the *obj* index of the *numVertices[]* array to the size of the *vertices* vector (using the **.size()** method). Subsequent code is provided to create and load the vertex data into the buffer for the object.
+- Add code to **load\_object()** to load the model indexed by **obj**. **Hint:** Use the *objFiles* vector (whose elements can be accessed using [] like arrays), and pass references to the *vertices*, *uvCoords*, and *normals* vectors (you do *not* need **&** since vectors are objects). Assign the *obj* index of the *numVertices[]* array to the size of the *vertices* vector (using the **.size()** method). Subsequent code is provided to create and load the vertex data into the buffer for the object.
 
 - Add code to **build\_geometry()** to load the *Cube* model. **Hint:** Use the *Cube* constant with the **load_object** function.
 
 - Add code to **build\_geometry()** to load the *Sphere* model. **Hint:** Use the *Sphere* constant with the **load_object** function.
+
+- Add code to **build\_geometry()** to build a red color buffer for the *Cube* model. **Hint:** Use the *Cube* constant, a **vec4(1.0f, 0.0f, 0.0f, 1.0f)** color, and the *ColorBuffers[RedCube]* buffer id with the **build_color_buffer** function.
+
+- Add code to **build\_geometry()** to build a yellow color buffer for the *Sphere* model. **Hint:** Use the *Sphere* constant, a **vec4(1.0f, 1.0f, 0.0f, 1.0f)** color, and the *ColorBuffers[YellowSphere]* buffer id with the **build_color_buffer** function.
 
 - Add code to **render\_scene()** to draw the cube object using the **draw\_color\_obj()** function. **Hint:** Use the *Cube* and *RedCube* constants.
 
