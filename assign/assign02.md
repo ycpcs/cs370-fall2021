@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 2: Train Kept A Rollin' (hopefully not all night long)"
 ---
 
-**Written Questions Due: Thursday, Sept 23rd by 2:00 PM** (in class) Submit a **graded** pdf to Canvas by Tuesday, Sept 24th.
+**Written Questions Due: Thursday, Sept 23rd by 2:00 PM** (in class) Submit a **graded** pdf to Canvas by Tuesday, Sept 28th.
 
 **Program Due:**
 
