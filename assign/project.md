@@ -5,7 +5,7 @@ title: "Final Project: Think Inside the Box!"
 
 **Program Due:**
 
-**Milestone 1: Tues, Oct 12th by 2:00 PM**  7.5% - This milestone should demonstrate the basic geometry of the scene (placeholder objects can be used where more complex objects will eventually be located). An orthographic "birds-eye" view is acceptable at this point to see the entire room.
+**Milestone 1: Thur, Oct 14th by 2:00 PM**  7.5% - This milestone should demonstrate the basic geometry of the scene (placeholder objects can be used where more complex objects will eventually be located). An orthographic "birds-eye" view is acceptable at this point to see the entire room.
 
 **Milestone 2: Thur, Nov 11th by 2:00 PM**  7.5- This milestone should contain most of the geometry that will appear in the final scene. First person camera controls should allow movement throughout the room (but not necessarily with collision detection). Lighting effects should be present.
 
