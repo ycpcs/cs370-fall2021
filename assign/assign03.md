@@ -56,7 +56,7 @@ Finally, select **Reload changes** which should build the project and add **Lime
 
 ### Programming assignment
 
-Write a program that draws a 3D stage scene with three "actors" and several lights using OpenGL. A sample executable is included in the **demo** directory as either **LimelightSolWin.exe*** or **LimelightSolMac**. The scene should include:
+Write a program that draws a 3D stage scene with three "actors" and several lights using OpenGL. A sample executable is included in the **demo** directory as either **LimelightSolWin.exe** or **LimelightSolMac**. The scene should include:
 
 -   A stage which is a rectangular cube with an elliptical front.
 -   Three "actors" on the stage consisting of a cube, sphere, and octahedron.
