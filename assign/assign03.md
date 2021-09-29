@@ -17,7 +17,7 @@ Download [CS370\_Assign03.zip](src/CS370_Assign03.zip), saving it into the **CS3
 
 Double-click on **CS370\_Assign03.zip** and extract the contents of the archive into a subdirectory called **CS370\_Assign03**
 
-Open CLion, select **CS370-Fall2021** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Assign02** subdirectory). Uncomment the line
+Open CLion, select **CS370-Fall2021** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Assign03** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Assign03" "CS370_Assign03/bin")
