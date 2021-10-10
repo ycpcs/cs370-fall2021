@@ -69,7 +69,7 @@ So for example the base node (assuming it is **MatNode base** that uses the **ph
     base.set_shader(phong_program, phong_proj_mat_loc, phong_camera_mat_loc, phong_model_mat_loc);
     base.NormMatPtr = phong_norm_mat_loc;
     base.set_buffers(VAOs[Cylinder], ObjBuffers[Cylinder][PosBuffer], phong_vPos, posCoords, ObjBuffers[Cylinder][NormBuffer], phong_vNorm, normCoords, numVertices[Cylinder]);
-	base.set_materials(MaterialBuffers[MaterialBuffer], phong_materials_block_idx, Materials.size()*sizeof(MaterialProperties), phong_material_loc, RedPlastic);
+	base.set_materials(MaterialBuffers[MaterialBuffer], phong_materials_block_idx, Materials.size()*sizeof(MaterialProperties), phong_material_loc, RedPlastic, false);
     base.set_lights(LightBuffers[LightBuffer], phong_lights_block_idx, Lights.size()*sizeof(LightProperties), phong_num_lights_loc, Lights.size(), phong_light_on_loc, lightOn);
     base.set_eye(phong_eye_loc, eye);
     base.set_base_transform(scale(vec3(BASE_RADIUS, BASE_HEIGHT, BASE_RADIUS)));
