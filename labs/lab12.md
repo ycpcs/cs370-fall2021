@@ -61,6 +61,8 @@ Some additional meshes can be obtained by selecting the drop down menu in the lo
 
 - In the configuration dialog, change the size to 3 m.
 
+- In the configuration dialog, rotate about the x-axis by 90 degrees (since the default orientation is with the z-axis being up).
+
 ## Exporting a Mesh
 
 To export the mesh, from the menu bar select **File->Export->Wavefront (.obj)**
