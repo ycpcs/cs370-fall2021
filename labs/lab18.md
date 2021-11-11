@@ -93,7 +93,7 @@ We then compute the Phong model diffuse and specular terms with this perturbed n
     vec3 BumpNorm = normalize(2.0f*BumpCol.rgb - 1.0f);
 ```
 
-**Note:** For this lab we are not including a material, so we assume the base material is simply white. However, it we could pass materials to the shader and combine a base material with the bump mapping lighting and base texture for added effect.
+**Note:** For this lab we are not including a material, so we assume the base material is simply white. However, we could pass materials to the shader and combine a base material with the bump mapping lighting and base texture for added effect.
 
 ## Combining Texture Colors
 
