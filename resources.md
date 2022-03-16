@@ -22,7 +22,7 @@ Install [Cygwin](http://cygwin.com/) and the various packages as described in th
 
 ### CLion
 
-1.  Create a [JetBrains](https://account.jetbrains.com/login) account with your YCP email to obtain a free license. 
+1.  Create a [JetBrains](https://www.jetbrains.com/community/education/#students) account with your YCP email to obtain a free license. 
 
 2. Download and install [CLion](https://www.jetbrains.com/clion/) and accept the defaults during the installation process.
 
@@ -44,7 +44,7 @@ Install [Cygwin](http://cygwin.com/) and the various packages as described in th
     
 ### CLion
 
-1.  Create a [JetBrains](https://account.jetbrains.com/login) account with your YCP email to obtain a free license. 
+1.  Create a [JetBrains](https://www.jetbrains.com/community/education/#students) account with your YCP email to obtain a free license. 
 
 2. Download and install [CLion](https://www.jetbrains.com/clion/) and accept the defaults during the installation process.
 
@@ -62,7 +62,7 @@ $ sudo apt-get install libglew-dev
 	
 ### CLion
 
-1.  Create a [JetBrains](https://account.jetbrains.com/login) account with your YCP email to obtain a free license. 
+1.  Create a [JetBrains](https://www.jetbrains.com/community/education/#students) account with your YCP email to obtain a free license. 
 
 2. Download [CLion](https://www.jetbrains.com/clion/) and follow the [installation instructions](https://www.jetbrains.com/help/clion/installation-guide.html#standalone)  for Linux.
 
